@@ -1,12 +1,27 @@
-#include "ClapTrap.hpp"
+#include "ScavTrap.hpp"
 
 int main()
 {
 
-    ClapTrap clup("test1");
-    clup.takeDamage(5);
-    clup.attack("ayoub");
-    clup.beRepaired(5);
-    
+	ScavTrap c("ayoub");
+	ScavTrap d("serina");
 
+
+
+	c.attack("serina from ptr of clap trap ");
+
+
+	c.attack("serina");
+
+	c.beRepaired(22);
+	c.takeDamage(21);
+	c.beRepaired(22);
+	c.guardGate();
+	c.guardGate();
+	d.attack("roboto");
+	d.takeDamage(101);
+	d.takeDamage(15);
+	d.attack("serina clone");
+
+	return (0);
 }

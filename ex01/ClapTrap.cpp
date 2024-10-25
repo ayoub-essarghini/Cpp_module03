@@ -74,5 +74,5 @@ void ClapTrap::beRepaired(unsigned int amount)
 
 ClapTrap::~ClapTrap()
 {
-    std::cout << "Desctructor called"<< std::endl;
+    std::cout << "Deconstructor called"<< std::endl;
 }

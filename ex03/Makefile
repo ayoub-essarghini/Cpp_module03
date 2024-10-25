@@ -1,6 +1,6 @@
-NAME= scavtrap
-INCLUDES= ScavTrap.hpp
-SRCS= ClapTrap.cpp ScavTrap.cpp main.cpp
+NAME= diamondtrap
+INCLUDES= DiamondTrap.hpp
+SRCS= DiamondTrap.cpp ScavTrap.cpp ClapTrap.cpp FragTrap.cpp  main.cpp
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
