@@ -18,7 +18,7 @@ DiamondTrap::DiamondTrap(const DiamondTrap &other) : ClapTrap(other), FragTrap(n
 
 DiamondTrap::~DiamondTrap()
 {
-	cout << "DiamondTrap DeConstructor Called!" << endl;
+	cout << "DiamondTrap Destructor Called!" << endl;
 }
 
 DiamondTrap &DiamondTrap::operator=(const DiamondTrap &other)

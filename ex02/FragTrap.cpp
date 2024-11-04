@@ -50,5 +50,5 @@ void FragTrap::attack(const std::string& target)
 
 FragTrap::~FragTrap()
 {
-    std::cout << "Frag Deconstructor called \n";
+    std::cout << "Frag Destructor called \n";
 }

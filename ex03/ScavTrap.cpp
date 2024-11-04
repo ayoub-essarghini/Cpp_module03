@@ -27,7 +27,7 @@ ScavTrap::ScavTrap(std::string name) : ClapTrap(name)
 
 ScavTrap::~ScavTrap()
 {
-	std::cout << "ScavTrap Deconstructor for " << this->_name << " called" << std::endl;
+	std::cout << "ScavTrap Destructor for " << this->_name << " called" << std::endl;
 }
 
 ScavTrap &ScavTrap::operator=(const ScavTrap &src)

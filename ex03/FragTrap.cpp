@@ -20,7 +20,7 @@ void FragTrap::highFivesGuys(void)
 
 FragTrap::FragTrap(const FragTrap &other) : ClapTrap(other)
 {
-	std::cout << "[FragTrap] Copy Constructor Called!" << std::endl;
+	std::cout << "FragTrap Copy Constructor Called!" << std::endl;
 }
 
 FragTrap &FragTrap::operator=(const FragTrap &other)
@@ -50,5 +50,5 @@ void FragTrap::attack(const std::string& target)
 
 FragTrap::~FragTrap()
 {
-    std::cout << "Frag Deconstructor called \n";
+    std::cout << "31mFragTrap Destructor called \n";
 }
